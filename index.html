@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meus Links</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      min-height: 100vh;
+    }
+
+    body {
+      font-family: sans-serif;
+      background: url('https://github.com/giancarloferreira/giancarloferreira.github.io/blob/main/sitecapa-puro.png?raw=true') no-repeat center top fixed;
+      background-size: 1990px 1150px;
+      background-color: black;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .avatar {
+      width: 200px;
+      height: auto;
+      object-fit: contain;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 0;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    .description {
+      max-width: 640px;
+      margin-bottom: 30px;
+      font-size: 1.1em;
+      line-height: 1.6;
+      text-align: justify;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 20px;
+      border-radius: 12px;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    .links-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      max-width: 700px;
+    }
+
+    .link-box {
+      width: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 12px 20px;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      transition: background 0.3s;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    .link-box:hover {
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .link-box i {
+      margin-right: 10px;
+      font-size: 1.2em;
+    }
+
+    @media (max-width: 680px) {
+      .links-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="https://github.com/giancarloferreira/giancarloferreira.github.io/blob/main/Gibraltek-logonome-branco.png?raw=true" alt="Logo ou imagem" class="avatar">
+
+<div class="description">
+A Gibraltek transforma sua TI com soluções sob medida que reduzem custos, aumentam a segurança e elevam a performance da sua infraestrutura. Tecnologia inteligente para empresas que querem ir além.
+</div>
+
+  <div class="links-grid">
+    <a href="https://instagram.com/gibraltek" class="link-box"><i class="fab fa-instagram"></i>Instagram</a>
+    <a href="https://wa.me/5531973370387" class="link-box"><i class="fab fa-whatsapp"></i>WhatsApp</a>
+    <a href="https://github.com/giancarloferreira" class="link-box"><i class="fab fa-github"></i>GitHub</a>
+    <a href="https://linkedin.com/in/giangcf" class="link-box"><i class="fab fa-linkedin"></i>LinkedIn</a>
+    <a href="https://giangcf.wordpress.com" class="link-box"><i class="fas fa-globe"></i>Site Pessoal</a>
+    <a href="#" class="link-box"><i class="fab fa-facebook"></i>Facebook</a>
+    <a href="#" class="link-box"><i class="fab fa-youtube"></i>YouTube</a>
+    <a href="mailto:contato@gibraltek.com.br" class="link-box"><i class="fas fa-envelope"></i>Email</a>
+    <a href="#" class="link-box"><i class="fas fa-phone"></i>Telefone</a>
+    <a href="#" class="link-box"><i class="fas fa-map-marker-alt"></i>Endereço</a>
+  </div>
+</body>
+</html>
